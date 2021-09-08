@@ -1,0 +1,34 @@
+{
+	"AchievementIDs":[
+		{
+			"InternalID":"COOL",
+			"AppleID":"",
+			"GoogleID":"CgkI7cSnytQQEAIQAg"
+		},
+		{
+			"InternalID":"AWESOME",
+			"AppleID":"",
+			"GoogleID":"CgkI7cSnytQQEAIQAw"
+		},
+		{
+			"InternalID":"Goodjob",
+			"AppleID":"",
+			"GoogleID":"CgkI7cSnytQQEAIQBA"
+		}
+	],
+	"LeaderboardIDs":[
+		{
+			"InternalID":"BestPlayers",
+			"AppleID":"",
+			"GoogleID":"CgkI7cSnytQQEAIQCA"
+		}
+	],
+	"CloudVariables":[],
+	"AppleSupported":false,
+	"GoogleSupported":true,
+	"GoogleAppID":"572460229229",
+	"GoogleSetupRun":true,
+	"DebugModeEnabled":false,
+	"Version":"2.7.2",
+	"SettingsLocation":"0"
+}

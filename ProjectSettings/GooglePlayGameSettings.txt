@@ -1,0 +1,11 @@
+lastUpgrade=01012
+proj.pluginVersion=0.10.12
+proj.AppId=878624016565
+and.BundleId=com.askerweb.airplane_game_test_your_flight_force.plane_games_airplane
+proj.classDir=Assets
+proj.ConstantsClassName=GPS
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--Google+Play+game+services+IDs.+Save+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.--%3e%0d%0a%3cresources%3e%0d%0a++%3c%21--app_id--%3e%0d%0a++%3cstring+name%3d%22app_id%22+translatable%3d%22false%22%3e878624016565%3c%2fstring%3e%0d%0a++%3c%21--package_name--%3e%0d%0a++%3cstring+name%3d%22package_name%22+translatable%3d%22false%22%3ecom.askerweb.airplane_game_test_your_flight_force.plane_games_airplane%3c%2fstring%3e%0d%0a++%3c%21--achievement+Cool%21--%3e%0d%0a++%3cstring+name%3d%22achievement_cool%22+translatable%3d%22false%22%3eCgkItZHKkMkZEAIQAQ%3c%2fstring%3e%0d%0a++%3c%21--achievement+Awesome%21--%3e%0d%0a++%3cstring+name%3d%22achievement_awesome%22+translatable%3d%22false%22%3eCgkItZHKkMkZEAIQAg%3c%2fstring%3e%0d%0a++%3c%21--achievement+Good+Job%21--%3e%0d%0a++%3cstring+name%3d%22achievement_good_job%22+translatable%3d%22false%22%3eCgkItZHKkMkZEAIQAw%3c%2fstring%3e%0d%0a++%3c%21--leaderboard+Best+Players%21--%3e%0d%0a++%3cstring+name%3d%22leaderboard_best_players%22+translatable%3d%22false%22%3eCgkItZHKkMkZEAIQBA%3c%2fstring%3e%0d%0a%3c%2fresources%3e
+and.ClientId=878624016565-2uq7t4hjpttvqn6imdrrv36j5l7sv6gi.apps.googleusercontent.com
+android.SetupDone=true
+App.NearbdServiceId=
+android.NearbySetupDone=true

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -107981364, guid: 7f448572ea9eb4f94a29da7a37eed74a, type: 3}
+  m_Name: UDP Settings
+  m_EditorClassIdentifier: 
+  UnityProjectID: 78035a42-d110-431e-9286-19e0182f1b2c
+  UnityClientID: 2xbm2eHBHPBrm0AMKeKj0g
+  UnityClientKey: 0OUljv8pyB8nenzZ6oAXDCKmVuYwAVn3xsPdyOFKdZc
+  UnityClientRSAPublicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArx6LVqKny8adHO6sQvo5hN5F1ML0Po8K2fwYuDmqzZwQ2ZfSOqnB+fhXgD4ckTRSpHgRXwyMVtKpXs9L94606mmEeh8HgypoXHy8hrIIzVzyNTSkwh6k4aiyCvB2BaR9sCIlx3PqNH/aBba1/mqlPi/+w9zUV6LhvlNIF+78wEfOUOmB97yBwHsoOW5T8rxdIryp+VYQZzgqZhmsAIs9coUMvaIJwvOa1s5zi7RNvw0y7ssDpQI6CyGayb5Cuj40BX49tZFwH4BkFCHUU+/+RdRUrxymjYQjC0zo3F1EHgXA5ZZ8uLBB4HsvyT/MPTNDLEUXXZ86LN2Q74b4DgsUqQIDAQAB
+  AppName: Rocket space league
+  AppSlug: fdeb0175-2264-4bb2-9fdf-136cd9606514
+  AppItemId: 60c2251d50e06009123a326d
+  Permission: 

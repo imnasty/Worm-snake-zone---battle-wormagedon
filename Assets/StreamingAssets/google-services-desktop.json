@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "572075122203",
+    "project_id": "rocket-space-league-a2714",
+    "storage_bucket": "rocket-space-league-a2714.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572075122203:android:603e15d5cd60c5b282a2be",
+        "android_client_info": {
+          "package_name": "com.askerweb.Rocket_space_league.rocket_league"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572075122203-6jaj7jfg8eluurljpuvdvos6pso5madm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA04yBpTQZbfTjvUyrOOqfhRIhBhzSNXrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572075122203-6jaj7jfg8eluurljpuvdvos6pso5madm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

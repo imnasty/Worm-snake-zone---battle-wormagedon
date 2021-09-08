@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2794433195271623229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6900432494968972433}
+  - component: {fileID: 7825743815261354037}
+  m_Layer: 0
+  m_Name: LeanLocalization
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6900432494968972433
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2794433195271623229}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4114194369449960443}
+  - {fileID: 4114194369171127262}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7825743815261354037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2794433195271623229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806f0696300aeac44a0e17efee222854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultLanguage: 
+  DetectLanguage: 1
+  SaveLanguage: 1
+  languages:
+  - name: Russian
+    cultures:
+    - ru
+    - ru-RU
+  - name: English
+    cultures:
+    - en
+    - en-GB
+    - en-US
+    - en-AU
+    - en-CA
+    - en-NZ
+    - en-IE
+    - en-ZA
+    - en-JM
+    - en-en029
+    - en-BZ
+    - en-BZ
+    - en-TT
+    - en-ZW
+    - en-PH
+  - name: Chinese
+    cultures:
+    - ChineseSimplified
+    - ChineseTraditional
+    - zh
+    - zh-TW
+    - zh-CN
+    - zh-HK
+    - zh-SG
+    - zh-MO
+  - name: Japanese
+    cultures:
+    - ja
+    - ja-JP
+  - name: Arabic
+    cultures:
+    - ar
+    - ar-SA
+    - ar-IQ
+    - ar-EG
+    - ar-LY
+    - ar-DZ
+    - ar-MA
+    - ar-TN
+    - ar-OM
+    - ar-YE
+    - ar-SY
+    - ar-JO
+    - ar-LB
+    - ar-KW
+    - ar-AE
+    - ar-BH
+    - ar-QA
+  - name: Spanish
+    cultures:
+    - es
+    - es-ES
+    - es-MX
+    - es-GT
+    - es-CR
+    - es-PA
+    - es-DO
+    - es-VE
+    - es-CO
+    - es-PE
+    - es-AR
+    - es-EC
+    - es-CL
+    - es-UY
+    - es-PY
+    - es-BO
+    - es-SV
+    - es-SV
+    - es-HN
+    - es-NI
+    - es-PR
+  - name: Portuguese
+    cultures:
+    - pt
+    - pt-BR
+    - pt-PT
+  prefabs: []
+--- !u!1 &4114194369171127263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4114194369171127262}
+  - component: {fileID: 4114194369171127257}
+  m_Layer: 0
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4114194369171127262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4114194369171127263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6900432494968972433}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4114194369171127257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4114194369171127263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Russian
+    Text: "\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C"
+    Object: {fileID: 0}
+  - Language: English
+    Text: Install
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "\u5B89\u8BBE"
+    Object: {fileID: 0}
+  - Language: Japanese
+    Text: "\u53D6\u308A\u4ED8\u3051\u308B"
+    Object: {fileID: 0}
+  - Language: Arabic
+    Text: "\u062A\u062B\u0628\u064A\u062A \u0627\u0644\u0622\u0646"
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: Para establecer
+    Object: {fileID: 0}
+  - Language: Portuguese
+    Text: Instalar
+    Object: {fileID: 0}
+--- !u!1 &4114194369449960440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4114194369449960443}
+  - component: {fileID: 4114194369449960442}
+  m_Layer: 0
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4114194369449960443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4114194369449960440}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6900432494968972433}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4114194369449960442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4114194369449960440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Russian
+    Text: "\u0412\u044B\u0431\u0435\u0440\u0438 \u043C\u0438\u0440"
+    Object: {fileID: 0}
+  - Language: English
+    Text: Choose the world
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "\u9009\u62E9\u4E16\u754C"
+    Object: {fileID: 0}
+  - Language: Japanese
+    Text: "\u4E16\u754C\u3092\u9078\u3076"
+    Object: {fileID: 0}
+  - Language: Arabic
+    Text: "\u0627\u062E\u062A\u0631 \u0627\u0644\u0639\u0627\u0644\u0645"
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: Elige el mundo
+    Object: {fileID: 0}
+  - Language: Portuguese
+    Text: Escolha o mundo
+    Object: {fileID: 0}

@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Finds : MonoBehaviour
+{
+public static Object Find(string name, System.Type type) {
+        Object[] objects = Resources.FindObjectsOfTypeAll(type);
+        foreach(var obj in objects) {
+            if(obj.name == name) {
+                return obj;
+            }
+        }
+        return null;
+    }
+
+    public static GameObject Find(string name) {
+        return Find(name, typeof(GameObject)) as GameObject;
+    }
+}
